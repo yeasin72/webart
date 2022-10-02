@@ -1,0 +1,19 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+
+.App{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Import all component styles */
+@import "../topbar/topbar.css";
+@import "../toolbar/toolbar.css";
+@import "../canvs/canvas.css";
+@import "../../Assets/colors/theam.css";
